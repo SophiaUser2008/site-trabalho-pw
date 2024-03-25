@@ -1,0 +1,37 @@
+body {
+    background-color: papayawhip; 
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+}
+
+h1 {
+    margin-right: 20px; /* margem à direita para separar os h1 das imagens */
+    font-family: 'Kanit', sans-serif;
+    color: palevioletred; 
+    
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /*margem inferior para separar as imagens */
+    float: left; /* Faz a imagem flutuar à esquerda */
+    margin: 0 20px 10px 0;
+    width: 600px; 
+
+
+}
+
+a {
+    display: block; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    background-color: plum; 
+    color: #fff; 
+    text-decoration: none; 
+    text-align: center; 
+}

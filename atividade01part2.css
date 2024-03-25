@@ -1,0 +1,54 @@
+body {
+    background-color: peachpuff; 
+    font-family: 'Kanit', sans-serif;
+}
+
+img {
+    float: left; /* Alinha as imagens à esquerda */
+    margin-right: 20px; /* Adiciona um espaço à direita das imagens */
+    max-width: 100%; 
+    height: auto; 
+    width: 300px; /* Reduz a largura da imagem */
+}
+
+h1, h2 {
+    clear: left; /*  evitar que o texto flua ao redor das imagens */
+}
+
+p {
+    display: inline-block;
+    vertical-align: top; 
+    width: calc(100% - 320px); /* Calcula a largura do parágrafo (largura total menos a largura da imagem e a margem entre a imagem e o texto) */
+    margin-bottom: 30px; /* Espaçamento entre os parágrafos */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+h1 {
+    color: purple; 
+    text-align: center;
+    
+
+}
+
+h2 {
+    color: purple; 
+}
+
+a {
+    display: inline-block; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    background-color: plum; 
+    color: #fff; 
+    text-decoration: none; 
+    text-align: center; 
+    float: right; 
+}
+
+
+
+
+
+
+
+

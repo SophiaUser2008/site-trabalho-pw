@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: burlywood; 
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+img {
+    width: 700px; 
+    height: 700px; 
+    border-radius: 100%; /* Faz a imagem ser arredondada */
+    border: 10px solid palevioletred; /* Adiciona uma borda branca  */
+    margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+h1 {
+    color: black;
+    font-family: 'Lilita One', cursive;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: white;
+    font-family: 'Lilita One', cursive;
+    text-decoration: none;
+    background-color: palevioletred;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    display: inline-block; 
+    width: 90%; 
+    text-align: center; 
+}
+
+a:hover {
+    background-color: transparent;
+    color: purple;
+}
